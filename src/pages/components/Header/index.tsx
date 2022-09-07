@@ -24,12 +24,12 @@ export function Header() {
         alignSelf="start"
       >
         <Image
-            w={["81px","184px"]}
-            src="/logo.svg"
-            alt="Um avião voando sobre o nome da marca world trip"
-            justifySelf="center"
-            gridColumn="2"
-          />
+          w={["81px","184px"]}
+          src="/logo.svg"
+          alt="Um avião voando sobre o nome da marca world trip"
+          justifySelf="center"
+          gridColumn="2"
+        />
 
       </Grid>
     </Flex>
