@@ -1,9 +1,9 @@
 import { Flex, Heading } from '@chakra-ui/react'
-import { Banner } from './components/Banner'
-import { Categories } from './components/Categories'
-import { Header } from './components/Header'
-import { Separator } from './components/Separator'
-import { Slider } from './components/Slider'
+import { Banner } from '../components/Banner'
+import { Categories } from '../components/Categories'
+import { Header } from '../components/Header'
+import { Separator } from '../components/Separator'
+import { Slider } from '../components/Slider'
 
 
 export default function Home() {
