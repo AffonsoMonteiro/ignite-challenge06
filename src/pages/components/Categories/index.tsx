@@ -1,5 +1,5 @@
 import { Grid, GridItem } from "@chakra-ui/react";
-import { Category } from "./category";
+import { Category } from "./Category";
 
 
 export function Categories() {
