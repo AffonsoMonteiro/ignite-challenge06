@@ -5,6 +5,7 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
+      
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
           
@@ -21,6 +22,7 @@ export default class MyDocument extends Document {
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:image:width" content="1200" />
           <meta name="twitter:image:height" content="620" />
+          
 
         </Head>
         <body>

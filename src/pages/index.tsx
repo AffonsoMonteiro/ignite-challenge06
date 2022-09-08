@@ -1,4 +1,5 @@
 import { Flex, Heading } from '@chakra-ui/react'
+import Head from 'next/head'
 import { Banner } from '../components/Banner'
 import { Categories } from '../components/Categories'
 import { Header } from '../components/Header'
@@ -9,6 +10,7 @@ import { Slider } from '../components/Slider'
 export default function Home() {
   return (
     <Flex direction="column">
+      <Head><title>WorldTrip | Home</title></Head>
       <Header />
       <Banner />
       <Categories />
